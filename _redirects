@@ -1,2 +1,5 @@
 # Redirect default Netlify subdomain to primary domain
+http://training.tampaunderground.com/* http://www.tampaunderground.com/training 301!
+https://training.tampaunderground.com/* https://www.tampaunderground.com/training 301!
 http://trainingredirect.netlify.com/* http://training.tampaunderground.com/:splat 301!
+https://trainingredirect.netlify.com/* https://training.tampaunderground.com/:splat 301!
